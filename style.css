@@ -151,6 +151,10 @@ form {
             input:invalid + span {
                 color: red;
             }
+
+            input:valid {
+                border: 1px solid green;
+            }
         }
     }
 }
